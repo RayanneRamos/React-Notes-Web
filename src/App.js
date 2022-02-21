@@ -1,12 +1,15 @@
 import React from 'react';
-import ListaDeNotas from './components/ListaDeNotas';
-import FormularioCadastro from './components/FormularioCadastro';
+import ListaDeNotas from './components/ListaDeNotas/ListaDeNotas';
+import FormularioCadastro from './components/FormularioCadastro/FormularioCadastro';
+import './App.css';
 
 function App() {
   return (
     <>
-      <FormularioCadastro />
-      <ListaDeNotas />
+      <section className='conteudo'>
+        <FormularioCadastro />
+        <ListaDeNotas />
+      </section>
     </>
   );
 }
