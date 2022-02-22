@@ -3,20 +3,31 @@ import './style.css';
 
 class FormularioCadastro extends Component {
   
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.titulo = '';
+    this.texto = '';
   }
 
   handleMudancaTitulo(evento) {
+    evento.stopPropagation();
     this.titulo = evento.target.value;
-    console.log(this.titulo);
   }
-  
+
+  handleMudancaTexto(evento) {
+    evento.stopPropagation();
+    this.texto = evento.target.value;
+  }
+
+  criarNota(evento) {
+    evento.preventDefault();
+    evento.stopPropagation();
+    this.props.criarNota(this.titulo, this.texto);
+  }
   
   render() {
     return (
-      <form className='form-cadastro'>
+      <form className='form-cadastro' onSubmit={this.criarNota.bind(this)}>
         <input 
           type='text' 
           placeholder='Título' 
@@ -26,7 +37,9 @@ class FormularioCadastro extends Component {
         <textarea 
           placeholder='Escreva sua nota' 
           rows={15} 
-          className='form-cadastro-input' />
+          className='form-cadastro-input' 
+          onChange={this.handleMudancaTexto.bind(this)}
+        />
         <button 
           className='form-cadastro-input form-cadastro-submit'
         >
