@@ -3,12 +3,18 @@ import './style.css';
 import { ReactComponent as DeleteSVG} from '../../assets/icons/delete.svg';
 
 class CardNota extends Component {
+
+  apagar() {
+    const indice = this.props.indice;
+    this.props.apagarNota(indice)
+  }
+
   render() {
     return (
       <section className='card-nota'>
         <header className='card-nota-cabecalho'>
           <h3 className='card-nota-titulo'>{this.props.titulo}</h3>
-          <DeleteSVG />
+          <DeleteSVG onClick={this.apagar.bind(this)} />
         </header>
         <p className='card-nota-texto'>{this.props.texto}</p>
       </section>
