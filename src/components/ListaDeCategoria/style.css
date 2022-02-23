@@ -1,0 +1,24 @@
+.lista-categoria {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+}
+
+.lista-categoria-lista {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.lista-categoria-item {
+  background-color: var(--secundaria);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+.lista-categoria-input {
+  margin-right: 20px;
+}
