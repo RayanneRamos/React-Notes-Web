@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
+import { ReactComponent as DeleteSVG} from '../../assets/icons/delete.svg';
 
 class CardNota extends Component {
   render() {
@@ -7,6 +8,7 @@ class CardNota extends Component {
       <section className='card-nota'>
         <header className='card-nota-cabecalho'>
           <h3 className='card-nota-titulo'>{this.props.titulo}</h3>
+          <DeleteSVG />
         </header>
         <p className='card-nota-texto'>{this.props.texto}</p>
       </section>
