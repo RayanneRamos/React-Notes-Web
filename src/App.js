@@ -20,7 +20,7 @@ class App extends Component {
       <>
         <section className='conteudo'>
           <FormularioCadastro 
-            criarNota={this.notas.criarNota} 
+            criarNota={this.notas.adicionarNotas.bind(this.notas)} 
             categorias={this.categorias} 
           />
           <main className='conteudo-principal'>
@@ -29,8 +29,8 @@ class App extends Component {
               adicionarCategoria={this.categorias.adicionarCategoria.bind(this.categorias)} 
             />
             <ListaDeNotas 
-              apagarNota={this.notas.deletarNota} 
-              notas={this.notas.notas} 
+              apagarNota={this.notas.apagarNota.bind(this.notas)} 
+              notas={this.notas} 
             />
           </main>
         </section>
