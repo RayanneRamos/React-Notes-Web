@@ -20,6 +20,10 @@ export default class ArrayDeNotas {
     });
   }
 
+  desinscrever(func) {
+    this.inscritos = this.inscritos.filter((f) => f !== func);
+  }
+
   apagarNota(indice) {
     this.notas.splice(indice, 1);
     this.notificar();
