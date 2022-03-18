@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/43352880/159061380-8fb5bfc1-0b08-4f52-9eb8-9481874e88a8.png" alt="Reactnotesweb">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/badge/license-MIT-%23835afd" alt="License">
+  <img src="https://img.shields.io/badge/forks-MIT-%23835afd" alt="Forks">
+  <img src="https://img.shields.io/badge/stars-MIT-%23835afd" alt="Stars">
+</p>
 
-## Available Scripts
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/43352880/159061480-e4d1afc8-4f91-4d08-bd6a-1d1e3a295555.png" title="Reactnotesweb" alt="Reactnotesweb">
+</h1>
 
-In the project directory, you can run:
+<br>
 
-### `yarn start`
+## 💻 Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[ReactNotesWeb] É um projeto desenvolvido durante o curso React: Entendendo como a biblioteca funciona da [Alura](https://alura.com.br/). O curso conta com 5 módulos que variam de 6 a 9 aulas por módulo.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ - [x] Módulo 1
+ - [x] Módulo 2
+ - [x] Módulo 3
+ - [x] Módulo 4
+ - [x] Módulo 5
 
-### `yarn test`
+## 🧪 Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-### `yarn build`
+ - [ReactJS](https://reactjs.org)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Instalação
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Clone o repositório e entre na pasta do projeto
+$ git clone https://github.com/RayanneRamos/react-notesweb.git
+$ cd react-notesweb
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Instale as dependências
+$ npm install
+# ou
+$ yarn install
 
-### `yarn eject`
+# Execute a aplicação
+$ npm start
+# ou
+$ yarn start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Abra http://localhost:3000 no seu navegador para ver a aplicação rodando!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔖 Layout
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Você pode visualizar o layout do projeto através:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ - [LayoutWeb](https://www.figma.com/file/zHfl5yJEP4tBxpkTeLBueD/react-notes-app?node-id=0%3A1) 
 
-## Learn More
+## 📝 License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para obter mais detalhes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p aling="center">Criado by Rayanne Ramos</p>
