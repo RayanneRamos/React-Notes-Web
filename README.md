@@ -16,7 +16,7 @@
 
 ## 💻 Projeto
 
-[ReactNotesWeb] É um projeto desenvolvido durante o curso React: Entendendo como a biblioteca funciona da [Alura](https://alura.com.br/). O curso conta com 5 módulos que variam de 6 a 9 aulas por módulo.
+[ReactNotesWeb](https://react-notesweb.vercel.app/) É um projeto desenvolvido durante o curso React: Entendendo como a biblioteca funciona da [Alura](https://alura.com.br/). O curso conta com 5 módulos que variam de 6 a 9 aulas por módulo.
 
  - [x] Módulo 1
  - [x] Módulo 2
