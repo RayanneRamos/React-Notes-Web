@@ -56,6 +56,14 @@ Você pode visualizar o layout do projeto através:
 
  - [LayoutWeb](https://www.figma.com/file/zHfl5yJEP4tBxpkTeLBueD/react-notes-app?node-id=0%3A1) 
 
+## 🔥 Desafios
+  - [ ] Responsividade
+  - [ ] Testes
+  - [ ] Deploy 
+  - [ ] Limpar o campo de categoria
+  - [ ] Validação dos campos
+  - [ ] Adicionar um botão de adicionar categoria
+
 ## 📝 License
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para obter mais detalhes.
